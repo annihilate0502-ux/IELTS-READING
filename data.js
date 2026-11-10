@@ -61,7 +61,7 @@ const passages = [
       },
       {
         type: "tfng",
-        instruction: "Do the following statements agree with the information given in the reading passage? Write TRUE, FALSE, or NOT GIVEN.",
+        instruction: "Do the following statements agree with the information given in the reading passage? Choose TRUE, FALSE, or NOT GIVEN.",
         questions: [
           { num: 7,  text: "ARPANET was originally designed for public communication.", answer: "FALSE" },
           { num: 8,  text: "TCP/IP was created in 1983 and is still used today.", answer: "TRUE" },
@@ -73,7 +73,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the sentences below.",
         questions: [
           { num: 13, text: "ARPANET used ________ to break data into small chunks for transmission.", answer: "packet switching" },
           { num: 14, text: "TCP/IP provided a common ________ for computers on the network.", answer: "language" }
@@ -179,7 +179,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the notes below.",
         questions: [
           { num: 20, text: "Hydroponics is a system in which plants grow in ________ rather than soil.", answer: "nutrient-rich water" },
           { num: 21, text: "Areas with limited access to fresh produce are sometimes called '________ deserts'.", answer: "food" },
@@ -308,7 +308,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the sentences below.",
         questions: [
           { num: 38, text: "The Rational Actor Model was central to classical ________ and public policy.", answer: "economics" },
           { num: 39, text: "Mental shortcuts used in decision-making are also known as ________.", answer: "heuristics" },
@@ -357,7 +357,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "The new library opened beside the ________ station.", answer: "bus" },
             { num: 9, text: "Children can receive help with their ________ on Tuesday afternoons.", answer: "homework" },
@@ -404,7 +404,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "Roads and roofs absorb energy from ________ during the day.", answer: "sunlight" },
             { num: 9, text: "Tree planning needs to account for water supply and root ________.", answer: "space" },
@@ -452,7 +452,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "Researchers can vary the interval between ________ to study task performance.", answer: "trials" },
             { num: 9, text: "Frequent signals may lead users to ignore them or respond ________.", answer: "automatically" },
@@ -492,7 +492,7 @@ practiceTests.push(
           { num: 6, text: "Visitors must make a contribution before receiving help.", answer: "FALSE" },
           { num: 7, text: "The community hall is owned by the local council.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "The event takes place on the first ________ of each month.", answer: "Sunday" },
           { num: 9, text: "Visitors email a description so organisers can prepare spare ________.", answer: "parts" },
           { num: 10, text: "The cafe does not accept large ________.", answer: "appliances" }
@@ -527,7 +527,7 @@ practiceTests.push(
           { num: 6, text: "Restoration engineers always remove all coastal embankments at the start of a project.", answer: "FALSE" },
           { num: 7, text: "The passage identifies a particular country with the most successful marsh restoration programme.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "Marsh grasses trap fine ________ carried by water.", answer: "sediment" },
           { num: 9, text: "A limited opening can be observed through several ________ cycles.", answer: "tidal" },
           { num: 10, text: "Project teams record whether homes or paths experience unexpected ________.", answer: "flooding" }
@@ -562,7 +562,7 @@ practiceTests.push(
           { num: 6, text: "A sleep diary by itself always reveals why a person sleeps later on free days.", answer: "FALSE" },
           { num: 7, text: "The passage states the exact number of adolescents included in the school projects.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "Social jet lag describes a mismatch between biological timing and daily ________.", answer: "obligations" },
           { num: 9, text: "Researchers may ask participants about work hours and light ________.", answer: "exposure" },
           { num: 10, text: "Later school starts may reduce the gap between students' rhythms and the hours they are expected to be ________.", answer: "alert" }
@@ -597,7 +597,7 @@ practiceTests.push(
           { num: 6, text: "Every business located on a recommended street benefits from increased movement.", answer: "FALSE" },
           { num: 7, text: "The passage names a specific mapping company that changed its route ranking.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "A digital map may rank journeys by estimated ________.", answer: "time" },
           { num: 9, text: "Some routes may cross areas that are poorly ________.", answer: "lit" },
           { num: 10, text: "Before-and-after audits can help reveal ________ effects.", answer: "distributional" }

@@ -766,7 +766,7 @@ function renderQuestions() {
 }
 
 function typeLabel(type) {
-  return ({ heading_match: 'Matching Headings', matching_headings: 'Matching Headings', matching_information: 'Matching Information', matching_features: 'Matching Features', tfng: 'True / False / Not Given', ynng: 'Yes / No / Not Given', mcq: 'Multiple Choice', fill: 'Completion', sentence_completion: 'Sentence Completion', summary_completion: 'Summary Completion', note_completion: 'Note Completion', table_completion: 'Table Completion', short_answer: 'Short Answer Questions' })[type] || type.replaceAll('_', ' ');
+  return ({ heading_match: 'Matching Headings', matching_headings: 'Matching Headings', matching_information: 'Matching Information', matching_features: 'Matching Features', tfng: 'True / False / Not Given', ynng: 'Yes / No / Not Given', mcq: 'Multiple Choice', fill: 'Fill in the Blanks', sentence_completion: 'Sentence Completion', summary_completion: 'Summary Completion', note_completion: 'Note Completion', table_completion: 'Table Completion', short_answer: 'Short Answer Questions' })[type] || type.replaceAll('_', ' ');
 }
 
 $('#qContent').addEventListener('change', event => {
